@@ -19,7 +19,7 @@ public class Main  {
 		Iterator itr=al.iterator();
 		while(itr.hasNext()) {
 			int n=(int) itr.next();
-			if(n==2||n==0) {System.out.println(n);}
+			if(n==2) {System.out.println(n);}
 			else itr.remove();
 			
 			
